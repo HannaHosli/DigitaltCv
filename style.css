@@ -1,8 +1,9 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url("IMG_3096.JPG") ;
     background-size: cover;
     background-blend-mode: overlay, contain;
+    background-image: url("photo-1428908728789-d2de25dbd4e2.jpeg") ;
+    background-color: hsl(223, 29%, 29%);
 
 
 }
@@ -11,15 +12,15 @@ header{
     position:fixed;
     top: 0;
     left: 0;
-    background-color: rgba(108, 131, 161, 0.396);
-    color: rgb(71, 69, 69);
+    background-color: #8394b969;
     width: 100%;
     padding: 25px;
-    border-top: 5px solid hsla(0, 2%, 36%, 0.118);
     border-block-start-style: ridge;
     text-shadow: 2px 2px 2px grey;
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
 }
 
 main{
@@ -32,26 +33,13 @@ main{
     display: flex;
 }
 
-.item {
-    width: 250px;
-    height: 150px;
-    border:  5px solid grey darkgray;
-    border-style: ridge;
-    padding: 5px;
-    margin-right: 20px;
-    background-color: hsl(0, 0%, 100%);
-    box-shadow: 2px 2px 2px gray;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
 a{
-    color:hsl(0, 0%, 1%);
+    color: #252f6e;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
 }
 a:hover{
-    color: rgb(20, 96, 100);
+    color: #343f827e;
 }
 a:active{
     text-decoration: underline;
@@ -72,10 +60,10 @@ font-size: 40px;
 padding-block-end: 0px;
 }
 
-h5{
+h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
-    color: rgb(4, 4, 4);
+    color: #252f6e;
     text-align: center;
 }
 
@@ -89,12 +77,12 @@ p{
 ul{
     list-style: square;
     text-align: left;
-    color: hsl(0, 0%, 0%);
+    color: #252f6e;
 }
 
 footer{
 
-    background-color: rgba(108, 131, 161, 0.4);
+    background-color: #8394b969;
     width: 100%;
     padding: 10px;
     position: fixed;
@@ -108,4 +96,15 @@ footer{
     box-shadow: 2px 2px 2px grey;
     margin-right: 20px;
     margin-left: 20px;
+    border:  5px solid grey darkgray;
+    border-style: ridge;
+}
+
+.om{
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+    margin-right: 20px;
+    margin-left: 20px;
+    border:  5px solid grey darkgray;
+    border-style: ridge;
 }
