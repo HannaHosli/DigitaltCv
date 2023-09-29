@@ -2,23 +2,27 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-size: cover;
     background-blend-mode: overlay, contain;
-    background-image: url("photo-1428908728789-d2de25dbd4e2.jpeg") ;
-    background-color: hsl(223, 29%, 29%);
+    background-image: url("de5764069ce3c87105dac291093e7ef9.jpg");
+    background-color: hsl(0, 0%, 100%);
 
 
 }
 
 header{
-    position:fixed;
     top: 0;
     left: 0;
     background-color: #8394b969;
     width: 100%;
-    padding: 25px;
-    border-block-start-style: ridge;
+    padding: 20px;
+    padding-top: 20px;
     text-shadow: 2px 2px 2px grey;
-    font-size: 25px;
+    font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 0px;
+    background-image: url(338210bd0c78a21e7fed14a242d9cc0c.jpg);
+    text-align: center;
+    border-radius: 5px;
+   
     
 
 }
@@ -33,13 +37,14 @@ main{
     display: flex;
 }
 
+
 a{
-    color: #252f6e;
+    color: #000000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
 }
 a:hover{
-    color: #343f827e;
+    color: #e97272;
 }
 a:active{
     text-decoration: underline;
@@ -56,15 +61,27 @@ text-shadow: 2px 2px 5px gray;
 text-align: center;
 color: whitesmoke;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 40px;
+font-size: 60px;
 padding-block-end: 0px;
+border-bottom: 0px;
+}
+
+h2{
+    text-shadow: 2px 2px 5px rgb(158, 158, 158);
+    text-align: center;
+    color: #e97272;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    padding-block-end: 0px;
 }
 
 h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
-    color: #252f6e;
+    color: #e97272;
     text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px rgb(158, 158, 158);
 }
 
 p{
@@ -77,15 +94,15 @@ p{
 ul{
     list-style: square;
     text-align: left;
-    color: #252f6e;
+    color: #000000;
+    list-style-position: outside;
 }
 
 footer{
 
-    background-color: #8394b969;
+    
     width: 100%;
     padding: 10px;
-    position: fixed;
     bottom: 0;
     left: 0;
 
@@ -102,9 +119,25 @@ footer{
 
 .om{
     border-radius: 5px;
-    box-shadow: 2px 2px 2px grey;
+    box-shadow: 2px 2px 2px#808080 ;
     margin-right: 20px;
     margin-left: 20px;
     border:  5px solid grey darkgray;
     border-style: ridge;
+}
+.button{
+    color: #914141;;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    word-spacing: 0px;
+    background-color: #f5b9a393;
+    border-radius: 5px;
+    margin: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+   
 }
